@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title></title>
+	
+	<!-- <link rel="stylesheet" type="text/css" href="css/nromalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	
+</head>
+<body ng-controller="MainCtrl">	
+	<!-- <div parallax-background class="cats photo" parallax-ratio="0.5"></div>
+	<div parallax-background class="animal photo" parallax-ratio="0.5"></div> -->
+	<div parallax-background class="myImage photo" parallax-ratio="0.5">
+		<div class="container">
+			<h1>Content</h1>
+		</div>
+	</div>
+	<section ng-include="'views/myskill.html'"></section>
+	<div parallax-background class="a1190 photo" parallax-ratio="0.5"></div>
+	<section ng-include="'views/ecommerce.html'"></section>
+
+	<!-- <img parallax-background parallax-ratio="1.22" parallax-vertical-offset="100" parallax-horizontal-offset="600" src="images/IMG_1173.jpg" class="paral"/>
+	<img parallax-background parallax-ratio="0.4" src="images/IMG_1190.jpg" class="paral"/>
+	<img parallax-background parallax-ratio="0.4" parallax-vertical-offset="1000" parallax-horizontal-offset="600" src="images/IMG_1173.jpg" class="paral"/>
+	<img parallax-background parallax-ratio="0.4" parallax-vertical-offset="1000" parallax-horizontal-offset="600" src="images/IMG_1190.jpg" class="paral"/> -->
+	<!-- <div parallax-background parallax-ratio="0.2"></div> -->
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-parallax-master/scripts/angular-parallax.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="bower_components/masonry/dist/masonry.pkgd.js"></script>
+	<!-- <script type="text/javascript">
+		$(document).ready(function(){
+			$('.grid').masonry({
+			  itemSelector: '.grid-item',
+			  columnWidth: 200,
+			  gutter: 10
+			});
+		})
+
+	</script> -->
+</body>
+</html>

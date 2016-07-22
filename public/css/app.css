@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica, arial;
+}
+
+/*body:after {
+	content: url('../images/IMG_1173_sm.jpg') url('../images/IMG_1190_sm.jpg') url('../images/cats.jpg') url('../images/animals.jpg');
+	display: none;
+}*/
+
+
+.photo {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	height: 690px;
+
+	position: relative;
+	background-size: cover;
+}
+
+.myImage{
+	background-image: url('../images/IMG_3584_1.jpg');	
+}
+
+.a1173 {
+	background-image: url('../images/IMG_1173_sm.jpg');
+}
+
+.a1190 {
+	background-image: url('../images/IMG_1190_sm.jpg');
+}
+
+.animal {
+	background-image: url('../images/animals.jpg');	
+}
+
+.cats {
+	background-image: url('../images/cats.jpg');	
+}
+
+.content {
+	/*height: 450px;*/
+	background-color: white;
+}
+
+.content_black {
+	/*height: 450px;*/
+	background-color: #dfdfdf;
+}
+
+.grid-sizer,
+.grid-item { 
+	width: 22.5%; 	
+}
+
+.item {
+	/*border: 1px solid grey;*/
+	border-radius: 4px;
+	margin-bottom: 10px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+}
+
+.grid-item--width2 { width: 400px; }
+
+.grid-img {
+	display: block;
+    width: 100%;
+    margin: 0;
+    border-radius: 3px 3px 0 0;
+}
+.grid-title {
+	padding: 4px;
+}
+
+.gutter-sizer {
+	width: 2.5%;
+}
